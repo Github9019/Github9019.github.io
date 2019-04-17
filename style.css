@@ -107,6 +107,22 @@ main{
 	text-align: center;
 	color: #e2d000;
 }
+#fas1{
+	position: absolute;
+	top: 30px;
+	left: 300px;
+	font-size: 30px;
+	color: white;
+	animation: arrow_ 2s infinite ease-in-out;
+}
+#fas2{
+	position: absolute;
+	top: 100px;
+	left: 45px;
+	font-size: 30px;
+	color: white;
+	animation: arrow 2s infinite ease-in-out;
+}
 #xod1:hover{
 	background-color: gray;
 	cursor: pointer;
@@ -126,4 +142,29 @@ main{
 #xod4:hover{
 	background-color: gray;
 	cursor: pointer 
+}
+#Win:hover{
+	cursor: pointer
+}
+@keyframes arrow_{
+	0%{
+		left: 300px;
+	}
+	50%{
+		left: 350px;
+	}
+	100%{
+		left: 300px;
+	}
+}
+@keyframes arrow{
+	0%{
+		top:100px;;
+	}
+	50%{
+		top:150px;
+	}
+	100%{
+		top:100px;;
+	}
 }
